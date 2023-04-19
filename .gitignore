@@ -1,3 +1,7 @@
+vendor/
+resources/
+composer.lock
+
 #### Eclipse IDE
 /.project
 /.pydevproject

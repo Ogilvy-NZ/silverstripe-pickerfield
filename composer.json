@@ -13,11 +13,16 @@
         {
             "name": "Michel van der Steege",
             "email": "michel@thewebmen.com"
+        },
+        {
+            "name": "Ogilvy NZ",
+            "email": "developers@ogilvy.co.nz"
         }
     ],
     "require": {
-        "silverstripe/framework": "~4.0",
-        "symbiote/silverstripe-gridfieldextensions": "^3.1"
+        "php": "^7.4 || ^8.0",
+        "silverstripe/framework": "^4.11",
+        "symbiote/silverstripe-gridfieldextensions": "^3.6"
     },
     "extra": {
         "installer-name": "silverstripe-pickerfield",
@@ -29,6 +34,12 @@
     "autoload": {
         "psr-4": {
             "TheWebmen\\PickerField\\": "src/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true,
+            "silverstripe/vendor-plugin": true
         }
     }
 }
